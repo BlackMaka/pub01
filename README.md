@@ -14,3 +14,6 @@ display: block;
 
 width: inherit;
 부모요소 크기 상속
+
+
+![캡처](https://user-images.githubusercontent.com/54789601/113497851-a3989c80-9542-11eb-87b6-4527a400ba3e.JPG)
