@@ -14,4 +14,6 @@ top : calc(100% - 10px);
 부모요소 바깥으로 나오기 때문에
 자기자신 너비(left), 높이(top) 빼주기 위한 함수
 calc를 사용
+
+
 ![image](https://user-images.githubusercontent.com/54789601/113497868-cb880000-9542-11eb-8c20-863a527a1e1a.png)
