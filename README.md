@@ -40,3 +40,8 @@ visibility: hidden; 속성 추가
 
 diplay none은
 자리 값, 존재 자체가 사라짐
+
+
+
+![image](https://user-images.githubusercontent.com/54789601/113504365-998e9200-9572-11eb-9736-39f94e23851a.png)
+
