@@ -5,3 +5,6 @@
 - style.css
 
 기능먼저 구현
+
+
+![image](https://user-images.githubusercontent.com/54789601/113503032-6811c880-956a-11eb-9ac5-ce57ef5ab62e.png)
