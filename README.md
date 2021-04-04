@@ -1,10 +1,16 @@
-# 더블 보더 레디우스 애니메이션
+# 드롭다운 네비게이션
 
 - index.html
 
 - style.css
 
-span으로 하고 content를 div로하면 css 태그 셀렉팅 하기 편함
+기능먼저 구현
 
-animation-direction: reverse;
-반대방향
+dropdown에 마우스 호버되면
+뒤의(자식요소) 수행
+.dropdown:hover .dropdown-submenu {
+display: block;
+}
+
+width: inherit;
+부모요소 크기 상속
