@@ -10,4 +10,5 @@ animation-direction: reverse;
 반대방향
 
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/54789601/113497899-04c07000-9543-11eb-8a63-e9ad1ca86f7b.png)
+
