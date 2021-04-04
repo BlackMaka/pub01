@@ -1,46 +1,62 @@
 /* Google Web Font */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,600,900&display=swqp');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #222;
   line-height: 1.5em;
+  font-weight: 300;
+  margin: 0;
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.items {
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ddd;
+  position: relative;
+  margin: 10px;
+}
+
+.caption {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.521);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.caption a {
+  color: #fff;
+  background-color: teal;
+  padding: 7px;
+  border-radius: 3px;
+}
+.caption a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.item:hover .caption {
+  opacity: 1;
 }
 
 a {
   color: #222;
   text-decoration: none;
-}
-
-.dropdown {
-  display: inline-block;
-}
-.dropdown-btn {
-  width: inherit;
-  padding: 10px;
-  font-size: 18px;
-  background-color: yellowgreen;
-  color: #fff;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
-.dropdown-submenu {
-  /* display: none; */
-  width: inherit;
-  box-shadow: 0 0 10px black;
-}
-.dropdown-submenu a {
-  display: block;
-  padding: 7px;
-  text-align: center;
-}
-
-.dropdown-submenu a:hover {
-  background-color: #eee;
-}
-
-.dropdown:hover .dropdown-submenu {
-  display: block;
 }
